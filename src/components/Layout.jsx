@@ -2,9 +2,10 @@ import Nav from './Nav';
 
 export default function Layout({ children }) {
     return (
-        <>
-        <Nav />
-        {children}
-        </>
+        <div className='mx-14'>
+            <Nav />
+            {children}
+        </div>
+
     );
 }
