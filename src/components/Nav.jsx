@@ -10,7 +10,10 @@ function Nav() {
 
     return (
         <nav className="flex justify-between items-center py-10">
-            <Link href={"/"} className="font-light text-3xl">.WT</Link>
+            <Link href={"/"}>
+                <h1 className="text-3xl font-bold">.WT</h1>
+            </Link>
+
             <ul>
                 {!user && (
 
